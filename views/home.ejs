@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light mb-5">
+      <div class="container-xxl justify-content-center">
+        <a class="navbar-brand" href="/">Acme Trinkets</a>
+      </div>
+    </nav>
+    <div class="container-xxl">
+      <div
+        id="trinket-container"
+        class="d-flex flex-wrap justify-content-between"
+      >
+        <!-- Trinket card -->
+        <!-- replace with a for loop and dynamically generate cards using the viewData -->
+        <div class="card mb-5" style="width: 18rem">
+          <img
+            src="https://www.uncommongoods.com/images/items/47400/47435_1_360px.jpg"
+            class="card-img-top"
+            alt="picture of a trinket"
+          />
+          <div class="card-body">
+            <p class="card-text">Reel Viewer</p>
+            <p class="card-text">$29.95</p>
+            <a href="#" class="btn btn-primary">Shop</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
