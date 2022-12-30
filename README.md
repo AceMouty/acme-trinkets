@@ -44,6 +44,7 @@ and install the project by running
 `npm i`
 
 From there you can then run the project by running the command
+
 `npm run start:dev`
 
 ## Home.ejs
