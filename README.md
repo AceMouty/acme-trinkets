@@ -16,7 +16,7 @@ After completing this project you will understand how to
 
 We learned that we can create JavaScript servers using Express and
 that we can also create dynamic web pages using EJS. In this
-exercise we will test our knowledge and understand of the material
+exercise we will test our knowledge and understanding of the material
 by creating a basic website using Express and EJS
 
 ## Instruction
